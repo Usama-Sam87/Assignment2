@@ -1,0 +1,53 @@
+increment and decrement:
+
+Every loop is based on increment or decrement
+increment increase in any number and decrement means decrease in a number
+
+increment operator (++)
+decrement operator (--)
+
+a=4;
+cout<<a++;
+result = 5
+
+
+
+# include <iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	cout << "a is: " << a << endl;
+	cout << "a value after increment is: " << ++a << endl;
+	cout<<"a is again : " << a++ << endl;
+	cout<<"a is : " << a << endl;
+	system ("pause");
+	return 0;
+}
+
+
+# include <iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	cout << "a is: " << a << endl;
+	cout << "a value after decrement is: " << --a << endl;
+	cout<<"a is again : " << a-- << endl;
+	cout<<"a is : " << a << endl;
+	system ("pause");
+	return 0;
+}
+
+# include <iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	cout << "a is: " << a << endl;
+	cout << "a value after decrement is: " << --a << endl;
+	cout<<"a is again incremented : " << a++ << endl;
+	cout<<"a is : " << a << endl;
+	system ("pause");
+	return 0;
+}
